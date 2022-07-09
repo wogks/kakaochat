@@ -18,10 +18,10 @@ class ChatMainScreen extends StatelessWidget {
         backgroundColor: Colors.black,
         items:[
         BottomNavigationBarItem(icon: Icon(Icons.perm_identity),label: ''),
-        BottomNavigationBarItem(icon: Icon(Icons.person),label: ''),
-        BottomNavigationBarItem(icon: Icon(Icons.perm_identity),label: ''),
-        BottomNavigationBarItem(icon: Icon(Icons.perm_identity),label: ''),
-        BottomNavigationBarItem(icon: Icon(Icons.perm_identity),label: ''),
+        BottomNavigationBarItem(icon: Icon(Icons.chat_bubble_outline_outlined),label: ''),
+        BottomNavigationBarItem(icon: Icon(Icons.remove_red_eye_outlined),label: ''),
+        BottomNavigationBarItem(icon: Icon(Icons.shopping_bag_outlined),label: ''),
+        BottomNavigationBarItem(icon: Icon(Icons.menu_book_outlined),label: ''),
 
       ]
       ),
