@@ -50,13 +50,33 @@ class ChatScreen extends StatelessWidget {
           child: Row(
             children: [
               ClipRRect(
-                borderRadius: BorderRadius.circular(200),
+                borderRadius: BorderRadius.circular(20),
+                child: Image.network('https://src.hidoc.co.kr/image/lib/2021/4/28/1619598179113_0.jpg',
+                width: 60,
+                height: 60,
+                fit: BoxFit.cover,),
               ),
-              Image.network('https://src.hidoc.co.kr/image/lib/2021/4/28/1619598179113_0.jpg',
-              width: 60,
-              height: 60,
-              fit: BoxFit.cover,)
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      Text('라라벨'),
+                      SizedBox(width: 4,),
+                      Text('라라벨'),
+                      SizedBox(width: 4,),
+                      Icon(Icons.access_alarm)
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Text('asldkhwlk')
+                    ],
+                  )
+                ],
+              )
             ],
+
           ),
         );
       }
